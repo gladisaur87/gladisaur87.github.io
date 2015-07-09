@@ -1,6 +1,6 @@
 body{
-	background: #DCDCDC;
-	font-family: courier;
+  background: #DCDCDC;
+  font-family: courier;
   border-color: green;
 }
 h1{
@@ -25,13 +25,16 @@ ul{
   color: #483D8B
 }
 
-ol {
+ol{
  color: #483D8B
 }
 
-table {
-  width: 
-  border: 1px solid #ccc;
+table{
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+  font-family: verdana;
+  font-size:11px;
+  color:#333333;
+  border-width: 3px;
+  border-color: black;
 }
-
-
