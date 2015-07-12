@@ -1,10 +1,10 @@
 ul {
 	background-color: #242628;
-
 	}
 	/*Horizonal Nav */
 
 *{
+	font-family: Andale Mono; 
 	box-sizing: border-box;
 	font-size: 24px; /* 1em/ 1rem /100*/
 }
@@ -39,17 +39,19 @@ ul {
 		padding: .8rem .3rem;
 		font-weight: normal;
 		font-size: 1rem;
-		color: #888888;
+		color: white;
 		text-decoration: none;
 		float: right;
 
 } 
 .horizontal-nav > li:first-child{
 	float: left;
+  	padding-left: 40px;
 }
 
 .horizontal-nav > li:last-child{
 	float: right;
+  	padding-right: 40px;
 }
 .horizontal-nav > li:last-child li{
 	float: left;
@@ -57,13 +59,33 @@ ul {
 
 #main {
 	float:left;
-	width: 30%;
-	background:#f0f;
+	width: 70%;
 	padding: 1rem;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 7rem;
+}
+p{
+  font-size: .8rem;
 }
 #sidebar{
 	float:right;
-	width: 70%;
-	background:gray;
-	padding: 1rem;
+	width: 30%;
+	padding: 4rem;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    position: relative;
+
 }
+img {
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+	border-radius: 10px;
+}
+#sidebar ul {
+	background: white;
+}
+
+
