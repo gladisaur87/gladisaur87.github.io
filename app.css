@@ -27,7 +27,6 @@ ul {
 }
 .horizontal-nav li {
 	list-style: none;
-
 }
 
 .horizontal-nav ul{
@@ -35,14 +34,13 @@ ul {
 	padding:0;
 }
 .horizontal-nav a {
-		display: block; 
-		padding: .8rem .3rem;
-		font-weight: normal;
-		font-size: 1rem;
-		color: white;
-		text-decoration: none;
-		float: right;
-
+	display: block; 
+	padding: .8rem .3rem;
+	font-weight: normal;
+	font-size: 1rem;
+	color: white;
+	text-decoration: none;
+	float: right;
 } 
 .horizontal-nav > li:first-child{
 	float: left;
@@ -51,7 +49,7 @@ ul {
 
 .horizontal-nav > li:last-child{
 	float: right;
-  	padding-right: 40px;
+  padding-right: 40px;
 }
 .horizontal-nav > li:last-child li{
 	float: left;
@@ -61,9 +59,9 @@ ul {
 	float:left;
 	width: 70%;
 	padding: 1rem;
-    padding-top: 1rem;
-    padding-left: 4rem;
-    padding-right: 7rem;
+  	padding-top: 1rem;
+  	padding-left: 4rem;
+  	padding-right: 7rem;
 }
 p{
   font-size: .8rem;
@@ -72,11 +70,10 @@ p{
 	float:right;
 	width: 30%;
 	padding: 4rem;
-    padding-top: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    position: relative;
-
+  	padding-top: 2rem;
+  	padding-left: 4rem;
+  	padding-right: 4rem;
+  	position: relative;
 }
 img {
     width: 5rem;
@@ -85,7 +82,6 @@ img {
 	border-radius: 10px;
 }
 #sidebar ul {
-	background: white;
+  	background: white;
 }
-
 
