@@ -1,3 +1,6 @@
+body{
+	background-color:#EEEEE0;
+}
 ul {
 	background-color: #242628;
 	}
@@ -15,7 +18,8 @@ ul {
 .horizontal-nav {
 	margin: 0;
 	padding: 0;
-	background-color: #242628;
+	background-color: #2F4F4F;
+    border-radius: 10px;
 }
 
 .horizontal-nav h1 {
@@ -42,6 +46,11 @@ ul {
 	text-decoration: none;
 	float: right;
 } 
+
+.horizontal-nav a:hover{
+  background-color: #CF5C3F;
+}
+
 .horizontal-nav > li:first-child{
 	float: left;
   	padding-left: 40px;
@@ -63,6 +72,9 @@ ul {
   	padding-left: 4rem;
   	padding-right: 7rem;
 }
+#main ul {
+	background-color:#EEEEE0;
+}
 p{
   font-size: .8rem;
 }
@@ -82,6 +94,7 @@ img {
 	border-radius: 10px;
 }
 #sidebar ul {
-  	background: white;
+  	background-color:#EEEEE0;
+  	list-style: none;
 }
 
